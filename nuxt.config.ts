@@ -2,7 +2,8 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   app: {
-    baseURL: "/xyz",
+    baseURL: "/",
     buildAssetsDir: "assets",
   },
+  modules: ["@nuxtjs/tailwindcss", "nuxt-icon"],
 });
