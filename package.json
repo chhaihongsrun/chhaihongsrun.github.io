@@ -6,10 +6,12 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages -d .output/public"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "gh-pages": "^6.0.0",
     "nuxt": "^3.7.0"
   }
 }
